@@ -1,13 +1,15 @@
 import Link from "next/link";
-import React, { Fragment } from "react";
+
+import React from "react";
 
 function Header() {
+  
   return (
     <header className="header-area header-sticky z-3">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <nav className="navbar navbar-expand-md main-nav">
+            <nav id="navbar" className="navbar fixed-top navbar-expand-md main-nav">
               <div className="container-fluid">
                 <Link className="navbar-brand logo" href="/">
                   <h1>Scholar</h1>
@@ -46,12 +48,18 @@ function Header() {
                       </Link>
                     </li>
                     <li className="scroll-to-section nav-item">
-                      <Link href="#services" className="nav-link active pt-md-0">
+                      <Link
+                        href="#services"
+                        className="nav-link active pt-md-0"
+                      >
                         Services
                       </Link>
                     </li>
                     <li className="scroll-to-section nav-item">
-                      <Link href="#courses" className=" nav-link active pt-md-0">
+                      <Link
+                        href="#courses"
+                        className=" nav-link active pt-md-0"
+                      >
                         Courses
                       </Link>
                     </li>

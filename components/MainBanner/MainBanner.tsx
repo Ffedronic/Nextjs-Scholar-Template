@@ -14,7 +14,7 @@ function MainBanner() {
                 className="carousel slide mt-md-3 mt-lg-0"
                 data-bs-ride="carousel"
               >
-                <div className="carousel-inner">
+                <div className="carousel-inner  rounded-5">
                   <div className="carousel-item active item item-1">
                     <div className="header-text">
                       <span className="category">Our Courses</span>
