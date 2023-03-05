@@ -27,7 +27,7 @@ function Header() {
                   <div className="search-input">
                     <form id="search" action="#">
                       <input
-                        type="text"
+                        type="search"
                         placeholder="Type Something"
                         id="searchText"
                         name="searchKeyword"
@@ -40,7 +40,7 @@ function Header() {
                     className="collapse navbar-collapse"
                     id="navbarNavAltMarkup"
                   >
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav nav">
                       <li className="scroll-to-section nav-item">
                         <a href="#top" className="nav-link active">
                           Home
