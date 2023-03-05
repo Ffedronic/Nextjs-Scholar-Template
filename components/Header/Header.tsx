@@ -1,17 +1,19 @@
+import Link from "next/link";
 import React, { Fragment } from "react";
 
 function Header() {
   return (
     <Fragment>
-      <header className="header-area header-sticky">
+      <header className="header-area header-sticky z-3">
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <nav className="navbar navbar-expand-lg bg-light">
+              <nav className="navbar navbar-expand-md main-nav">
                 <div className="container-fluid">
-                  <a className="navbar-brand" href="#">
-                    Navbar
-                  </a>
+               
+                  <Link className="navbar-brand logo" href="/">
+                   <h1>Scholar</h1> 
+                  </Link>
                   <button
                     className="navbar-toggler"
                     type="button"
