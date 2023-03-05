@@ -10,9 +10,8 @@ function Header() {
             <div className="col-12">
               <nav className="navbar navbar-expand-md main-nav">
                 <div className="container-fluid">
-               
                   <Link className="navbar-brand logo" href="/">
-                   <h1>Scholar</h1> 
+                    <h1>Scholar</h1>
                   </Link>
                   <button
                     className="navbar-toggler"
@@ -25,26 +24,45 @@ function Header() {
                   >
                     <span className="navbar-toggler-icon"></span>
                   </button>
+                  <div className="search-input">
+                    <form id="search" action="#">
+                      <input
+                        type="text"
+                        placeholder="Type Something"
+                        id="searchText"
+                        name="searchKeyword"
+                      />
+                      <i className="fa fa-search"></i>
+                    </form>
+                  </div>
+
                   <div
                     className="collapse navbar-collapse"
                     id="navbarNavAltMarkup"
                   >
-                    <div className="navbar-nav">
-                      <a
-                        className="nav-link active"
-                        aria-current="page"
-                        href="#"
-                      >
-                        Home
-                      </a>
-                      <a className="nav-link" href="#">
-                        Features
-                      </a>
-                      <a className="nav-link" href="#">
-                        Pricing
-                      </a>
-                      <a className="nav-link disabled">Disabled</a>
-                    </div>
+                    <ul className="navbar-nav">
+                      <li className="scroll-to-section nav-item">
+                        <a href="#top" className="nav-link active">
+                          Home
+                        </a>
+                      </li>
+                      <li className="scroll-to-section nav-item">
+                        <a href="#services" className="nav-link">Services</a>
+                      </li>
+                      <li className="scroll-to-section nav-item">
+                        <a href="#courses" className=" nav-link">Courses</a>
+                      </li>
+                      <li className="scroll-to-section nav-item">
+                        <a href="#team" className=" nav-link">Team</a>
+                      </li>
+                      <li className="scroll-to-section nav-item">
+                        <a href="#events" className="nav-link">Events</a>
+                      </li>
+                      <li className="scroll-to-section nav-item">
+                        <a href="#contact" className="nav-link">Register Now!</a>
+                      </li>
+                    </ul>
+                    
                   </div>
                 </div>
               </nav>
