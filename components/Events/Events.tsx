@@ -16,7 +16,7 @@ function Events() {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="image">
-                    <img src="assets/images/event-01.jpg" alt="" />
+                    <img src="/images/event-01.jpg" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-9">
@@ -50,7 +50,7 @@ function Events() {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="image">
-                    <img src="assets/images/event-02.jpg" alt="" />
+                    <img src="/images/event-02.jpg" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-9">
@@ -84,7 +84,7 @@ function Events() {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="image">
-                    <img src="assets/images/event-03.jpg" alt="" />
+                    <img src="/images/event-03.jpg" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-9">

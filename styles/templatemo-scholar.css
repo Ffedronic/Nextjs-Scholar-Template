@@ -314,7 +314,7 @@ Header Style
 }
 
 .header-area .main-nav {
-  background: transparent;
+  background: #7a6ad8;
   display: flex;
 }
 
@@ -560,6 +560,9 @@ Header Style
 }
 
 @media (max-width: 767px) {
+  .header-area .main-nav {
+    background: transparent;
+  }
   .background-header .main-nav .nav,
   .header-area .main-nav .nav {
     background-color: #f1f0fe;

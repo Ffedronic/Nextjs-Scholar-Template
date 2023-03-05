@@ -25,6 +25,8 @@ function Header() {
                 >
                   <span className="navbar-toggler-icon"></span>
                 </button>
+                <div>   
+                </div>
                 <div className="search-input">
                   <form id="search" action="#">
                     <input
@@ -36,7 +38,6 @@ function Header() {
                     <i className="fa fa-search"></i>
                   </form>
                 </div>
-
                 <div
                   className="collapse navbar-collapse ms-md-5"
                   id="navbarNavAltMarkup"

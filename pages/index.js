@@ -10,6 +10,7 @@ import Team from "@/components/Team/Team";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Events from "@/components/Events/Events";
 import ContactUs from "@/components/ContactUs/ContactUs";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -33,19 +34,7 @@ export default function Home() {
       <Events />
       <ContactUs />
 
-      <footer>
-        <div class="container">
-          <div class="col-lg-12">
-            <p>
-              Copyright © 2036 Scholar Organization. All rights reserved.
-              &nbsp;&nbsp;&nbsp; Design:{" "}
-              <a href="https://templatemo.com" rel="nofollow" target="_blank">
-                TemplateMo
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer/>
     </>
   );
 }
