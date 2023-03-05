@@ -469,7 +469,7 @@ export default function Home() {
               <div class="row">
                 <div class="col-lg-12">
                   <fieldset>
-                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required />
+                    <input type="name" name="name" id="name" placeholder="Your Name..." autoComplete="on" required />
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
