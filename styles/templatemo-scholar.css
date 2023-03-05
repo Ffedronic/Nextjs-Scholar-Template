@@ -138,7 +138,8 @@ body {
   margin-bottom: 60px;
 }
 
-.section-heading h2 {
+.section-heading h2,
+.fun-facts .section-heading h2 {
   font-size: 36px;
   font-weight: 600;
   text-transform: capitalize;
@@ -1112,20 +1113,29 @@ Facts Style
   margin-bottom: 40px;
 }
 
-.fun-facts h2 {
+.fun-facts .section-heading h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 20px 0;
+  line-height: 44px;
+  color: #fff;
+}
+
+.fun-facts h3 {
   color: #fff;
   font-size: 48px;
   font-weight: 700;
 }
 
-.fun-facts h2::after {
+.fun-facts h3::after {
   content: '+';
   margin-left: 5px;
 }
 
 .fun-facts p {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   margin-top: 15px;
 }

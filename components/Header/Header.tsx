@@ -60,6 +60,11 @@ function Header() {
                         Team
                       </Link>
                     </li>
+                    <li className="scroll-to-section nav-item">
+                      <Link href="#facts" className=" nav-link active pt-md-0">
+                        Facts
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
