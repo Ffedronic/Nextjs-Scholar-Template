@@ -665,7 +665,7 @@ Banner Style
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0px 120px 0px;
+  padding: 170px 0px 170px 0px;
 }
 
 .main-banner .item-1 {
@@ -1719,6 +1719,7 @@ body {
     padding: 100px 60px 140px 60px;
     margin-left: 0px;
     text-align: center;
+    height: 750px;
   }
   .main-banner .item h2,
   .main-banner .item p {
