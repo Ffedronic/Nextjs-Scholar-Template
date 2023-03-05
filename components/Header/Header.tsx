@@ -37,23 +37,23 @@ function Header() {
                   </div>
 
                   <div
-                    className="collapse navbar-collapse"
+                    className="collapse navbar-collapse ms-md-5"
                     id="navbarNavAltMarkup"
                   >
                     <ul className="navbar-nav nav">
                       <li className="scroll-to-section nav-item">
-                        <a href="#top" className="nav-link active">
+                        <a href="#top" className="nav-link active pt-md-0">
                           Home
                         </a>
                       </li>
                       <li className="scroll-to-section nav-item">
-                        <a href="#services" className="nav-link">Services</a>
+                        <a href="#services" className="nav-link active pt-md-0">Services</a>
                       </li>
                       <li className="scroll-to-section nav-item">
-                        <a href="#courses" className=" nav-link">Courses</a>
+                        <a href="#courses" className=" nav-link active pt-md-0">Courses</a>
                       </li>
                       <li className="scroll-to-section nav-item">
-                        <a href="#team" className=" nav-link">Team</a>
+                        <a href="#team" className=" nav-link active pt-md-0">Team</a>
                       </li>
                      
                     </ul>
