@@ -692,7 +692,6 @@ Banner Style
   background-size: cover;
   border-radius: 25px;
   padding: 100px 100px;
-  margin-left: 130px;
 }
 
 .main-banner .item span.category {
@@ -723,6 +722,7 @@ Banner Style
 .main-banner .item .buttons {
   display: flex;
   margin-top: 50px;
+  justify-content: space-around;
 }
 
 .main-banner .item .buttons .main-button {
