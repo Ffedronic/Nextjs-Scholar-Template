@@ -55,12 +55,7 @@ function Header() {
                       <li className="scroll-to-section nav-item">
                         <a href="#team" className=" nav-link">Team</a>
                       </li>
-                      <li className="scroll-to-section nav-item">
-                        <a href="#events" className="nav-link">Events</a>
-                      </li>
-                      <li className="scroll-to-section nav-item">
-                        <a href="#contact" className="nav-link">Register Now!</a>
-                      </li>
+                     
                     </ul>
                     
                   </div>
