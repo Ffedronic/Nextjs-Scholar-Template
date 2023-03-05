@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Services() {
@@ -17,7 +18,7 @@ function Services() {
                   remember TemplateMo website.
                 </p>
                 <div className="main-button">
-                  <a href="#">Read More</a>
+                  <Link href="#">Read More</Link>
                 </div>
               </div>
             </div>
@@ -34,7 +35,7 @@ function Services() {
                   digital marketing, etc.
                 </p>
                 <div className="main-button">
-                  <a href="#">Read More</a>
+                  <Link href="#">Read More</Link>
                 </div>
               </div>
             </div>
@@ -51,7 +52,7 @@ function Services() {
                   from our website too.
                 </p>
                 <div className="main-button">
-                  <a href="#">Read More</a>
+                  <Link href="#">Read More</Link>
                 </div>
               </div>
             </div>

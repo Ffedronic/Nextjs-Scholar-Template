@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+
+import Link from "next/link";
 
 function MainBanner() {
   return (
@@ -26,12 +26,12 @@ function MainBanner() {
                       </p>
                       <div className="buttons">
                         <div className="main-button">
-                          <a href="#">Request Demo</a>
+                          <Link href="#">Request Demo</Link>
                         </div>
                         <div className="icon-button">
-                          <a href="#">
+                          <Link href="#">
                             <i className="fa fa-play"></i> What's Scholar?
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -48,13 +48,13 @@ function MainBanner() {
                       </p>
                       <div className="buttons">
                         <div className="main-button">
-                          <a href="#">Request Demo</a>
+                          <Link href="#">Request Demo</Link>
                         </div>
                         <div className="icon-button">
-                          <a href="#">
+                          <Link href="#">
                             <i className="fa fa-play"></i> What's the best
                             result?
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -70,27 +70,16 @@ function MainBanner() {
                       </p>
                       <div className="buttons">
                         <div className="main-button">
-                          <a href="#">Request Demo</a>
+                          <Link href="#">Request Demo</Link>
                         </div>
                         <div className="icon-button">
-                          <a href="#">
+                          <Link href="#">
                             <i className="fa fa-play"></i> What's Online Course?
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                   </div>
-
-                  {/* <div className="carousel-item active">
-      <img src="..." className="d-block w-100" alt="...">
-    </div>
-    <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="...">
-    </div>
-    <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="...">
-    </div>
-   */}
                 </div>
                 <button
                   className="carousel-control-prev"
