@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function AboutUs() {
@@ -130,7 +131,7 @@ function AboutUs() {
                 ipsum suspendisse ultrices gravid risus commodo.
               </p>
               <div className="main-button">
-                <a href="#">Discover More</a>
+                <Link href="#">Discover More</Link>
               </div>
             </div>
           </div>
