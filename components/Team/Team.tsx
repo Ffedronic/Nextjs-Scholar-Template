@@ -9,7 +9,7 @@ function Team() {
           <div className="col-lg-3 col-md-6">
             <div className="team-member">
               <div className="main-content">
-                <img src="assets/images/member-01.jpg" alt="" />
+                <img src="/images/member-01.jpg" alt="member" />
                 <span className="category">UX Teacher</span>
                 <h4>Sophia Rose</h4>
                 <ul className="social-icons">
@@ -35,7 +35,7 @@ function Team() {
           <div className="col-lg-3 col-md-6">
             <div className="team-member">
               <div className="main-content">
-                <img src="assets/images/member-02.jpg" alt="" />
+                <img src="/images/member-02.jpg" alt="member" />
                 <span className="category">Graphic Teacher</span>
                 <h4>Cindy Walker</h4>
                 <ul className="social-icons">
@@ -61,7 +61,7 @@ function Team() {
           <div className="col-lg-3 col-md-6">
             <div className="team-member">
               <div className="main-content">
-                <img src="assets/images/member-03.jpg" alt="" />
+                <img src="/images/member-03.jpg" alt="member" />
                 <span className="category">Full Stack Master</span>
                 <h4>David Hutson</h4>
                 <ul className="social-icons">
@@ -87,7 +87,7 @@ function Team() {
           <div className="col-lg-3 col-md-6">
             <div className="team-member">
               <div className="main-content">
-                <img src="assets/images/member-04.jpg" alt="" />
+                <img src="/images/member-04.jpg" alt="member" />
                 <span className="category">Digital Animator</span>
                 <h4>Stella Blair</h4>
                 <ul className="social-icons">

@@ -1167,7 +1167,7 @@ Team Style
   top: -110px;
   left: 50%;
   transform: translateX(-110px);
-  transition: all .3s;
+  transition: all .4s;
 }
 
 .team-member .main-content {
