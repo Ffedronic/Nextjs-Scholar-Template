@@ -1,9 +1,10 @@
-import Link from "next/link";
-import React from "react";
+import React, { Fragment } from "react";
 
 function Testimonials() {
   return (
-    <div className="section testimonials">
+    <Fragment>
+      <div id="testimonials" className="mb-5 pb-5"></div>
+    <div  className="section testimonials">
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
@@ -75,44 +76,6 @@ function Testimonials() {
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
-            {/* <div className="owl-carousel owl-testimonials">
-              <div className="item">
-                <p>
-                  “Please tell your friends or collegues about TemplateMo
-                  website. Anyone can access the website to download free
-                  templates. Thank you for visiting.”
-                </p>
-                <div className="author">
-                  <img src="assets/images/testimonial-author.jpg" alt="" />
-                  <span className="category">Full Stack Master</span>
-                  <h4>Claude David</h4>
-                </div>
-              </div>
-              <div className="item">
-                <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravid.”
-                </p>
-                <div className="author">
-                  <img src="assets/images/testimonial-author.jpg" alt="" />
-                  <span className="category">UI Expert</span>
-                  <h4>Thomas Jefferson</h4>
-                </div>
-              </div>
-              <div className="item">
-                <p>
-                  “Scholar is free website template provided by TemplateMo for
-                  educational related websites. This CSS layout is based on
-                  Bootstrap v5.3.0 framework.”
-                </p>
-                <div className="author">
-                  <img src="assets/images/testimonial-author.jpg" alt="" />
-                  <span className="category">Digital Animator</span>
-                  <h4>Stella Blair</h4>
-                </div>
-              </div>
-            </div> */}
           </div>
           <div className="col-lg-5 align-self-center">
             <div className="section-heading">
@@ -128,6 +91,7 @@ function Testimonials() {
         </div>
       </div>
     </div>
+    </Fragment>
   );
 }
 

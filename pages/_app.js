@@ -1,9 +1,8 @@
-import "@/styles/globals.css";
 import "@/styles/flex-slider.css";
 import "@/styles/fontawesome.css";
-import "@/styles/owl.css";
 import "@/styles/templatemo-scholar.css";
 import "@/public/vendor/bootstrap/css/bootstrap.min.css";
+
 import { Fragment } from "react";
 import Script from "next/script";
 import Layout from "@/components/Layout/Layout";

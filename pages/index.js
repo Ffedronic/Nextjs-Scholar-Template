@@ -18,6 +18,7 @@ export default function Home() {
     $().ready(() => {
       $("#js-preloader").addClass("loaded");
     });
+
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       var box = $('.header-text').height();
@@ -30,6 +31,8 @@ export default function Home() {
       }
     })
   }, []);
+
+  
 
   return (
     <>

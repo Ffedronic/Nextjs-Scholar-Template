@@ -562,6 +562,12 @@ Header Style
   .header-area .main-nav {
     background: transparent;
   }
+  .background-header .main-nav .nav {
+    margin-top: 0px;
+  }
+  .background-header .main-nav .logo {
+    margin-bottom: 0px;
+  }
   .background-header .main-nav .nav,
   .header-area .main-nav .nav {
     background-color: #f1f0fe;
@@ -646,7 +652,7 @@ Header Style
     margin-top: 100px !important;
   } */
   .background-header.header-sticky .nav {
-    margin-top: 80px !important;
+    margin-top: 0px !important;
   }
   .header-area .main-nav .nav li {
     width: 100%;
@@ -1696,6 +1702,7 @@ body {
   .header-area {
     top: 0px;
   }
+
   .header-area .main-nav .logo h1 {
     border-right: none;
   }
