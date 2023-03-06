@@ -1699,6 +1699,16 @@ body {
   .header-area .main-nav .logo h1 {
     border-right: none;
   }
+
+  .header-area .main-nav button {
+    margin-left: 75px;
+    background-color: #fff;
+  }
+
+  .header-area.background-header .main-nav button {
+    margin-bottom: 20px;
+  }
+
   .main-banner .item {
     padding: 80px 30px 120px 30px !important;
   }
