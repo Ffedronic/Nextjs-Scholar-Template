@@ -9,8 +9,28 @@ import Team from "@/components/Team/Team";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Events from "@/components/Events/Events";
 import ContactUs from "@/components/ContactUs/ContactUs";
+import { useEffect } from "react";
+
+import $ from "jquery";
 
 export default function Home() {
+  useEffect(() => {
+    $().ready(() => {
+      $("#js-preloader").addClass("loaded");
+    });
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      var box = $('.header-text').height();
+      var header = $('header').height();
+  
+      if (scroll >= box - header) {
+        $("header").addClass("background-header");
+      } else {
+        $("header").removeClass("background-header");
+      }
+    })
+  }, []);
+
   return (
     <>
       <Head>
@@ -20,7 +40,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <Preloader /> */}
+      <Preloader />
       <MainBanner />
       <Services />
       <AboutUs />

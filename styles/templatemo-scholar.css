@@ -314,7 +314,6 @@ Header Style
 }
 
 .header-area .main-nav {
-  background: #7a6ad8;
   display: flex;
 }
 
@@ -336,7 +335,7 @@ Header Style
 
 .background-header .main-nav .logo,
 .background-header .main-nav #search {
-  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .header-area .main-nav #search {
@@ -1712,6 +1711,12 @@ body {
   .event_filter li {
     display: inline-block;
     margin: 0px 10px;
+  }
+}
+
+@media(min-width: 767px) {
+  .background-header .main-nav .search-input {
+    margin-bottom: 7px;
   }
 }
 
