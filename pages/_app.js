@@ -6,6 +6,7 @@ import "@/styles/templatemo-scholar.css";
 import "@/public/vendor/bootstrap/css/bootstrap.min.css";
 import { Fragment } from "react";
 import Script from "next/script";
+import Layout from "@/components/Layout/Layout";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -25,7 +26,9 @@ export default function App({ Component, pageProps }) {
         integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
         crossOrigin="anonymous"
       />
+      <Layout>
       <Component {...pageProps} />
+      </Layout>
     </Fragment>
   );
 }
