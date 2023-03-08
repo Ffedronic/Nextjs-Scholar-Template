@@ -138,8 +138,7 @@ body {
   margin-bottom: 60px;
 }
 
-.section-heading h2,
-.fun-facts .section-heading h2 {
+.section-heading h2 {
   font-size: 36px;
   font-weight: 600;
   text-transform: capitalize;
@@ -1220,6 +1219,13 @@ Team Style
   color: #fff;
 }
 
+.team .section-heading h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 20px 0;
+  line-height: 44px;
+}
 
 /* 
 ---------------------------------------------
