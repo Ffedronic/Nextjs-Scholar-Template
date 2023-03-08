@@ -8,6 +8,14 @@ function Services() {
       <div className="services section" id="services">
         <div className="container">
           <div className="row">
+            <div className="col-lg-12 text-center">
+              <div className="section-heading">
+                <h6>Services</h6>
+                <h2>the services we offer</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="service-item">
                 <div className="icon">
