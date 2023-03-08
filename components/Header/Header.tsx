@@ -89,6 +89,14 @@ function Header() {
                         Testimonials
                       </Link>
                     </li>
+                    <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
+                      <Link
+                        href="#contact"
+                        className=" nav-link active pt-md-0"
+                      >
+                        Contact
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
