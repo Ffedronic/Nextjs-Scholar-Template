@@ -12,7 +12,6 @@ import ContactUs from "@/components/ContactUs/ContactUs";
 import { useEffect } from "react";
 
 import $ from "jquery";
-
 export default function Home() {
   useEffect(() => {
     $().ready(() => {

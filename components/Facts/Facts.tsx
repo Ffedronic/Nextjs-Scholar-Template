@@ -1,8 +1,10 @@
 import React from "react";
 import CountUp from "react-countup";
+import {Zoom } from "react-reveal"
 
 function Facts() {
   return (
+    <Zoom>
     <div id="facts" className="section">
       <div className="container">
         <div className="row">
@@ -57,6 +59,7 @@ function Facts() {
         </div>
       </div>
     </div>
+    </Zoom>
   );
 }
 

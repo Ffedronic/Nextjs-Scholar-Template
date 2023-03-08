@@ -1,8 +1,10 @@
 import Link from "next/link";
+import { Fade } from "react-reveal";
 import React from "react";
 
 function AboutUs() {
   return (
+    <Fade right>
     <div className="section about-us">
       <div className="container">
         <div className="row">
@@ -138,6 +140,7 @@ function AboutUs() {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }
 
