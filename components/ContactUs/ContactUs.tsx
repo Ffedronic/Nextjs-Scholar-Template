@@ -1,8 +1,54 @@
 import Link from "next/link";
-import React from "react";
+import React, { FormEvent, useRef } from "react";
+import $ from "jquery";
+
+import emailjs from "@emailjs/browser";
 import { Zoom } from "react-reveal";
 
 function ContactUs() {
+  const nameRef = useRef<HTMLInputElement>(null);
+  const emailRef = useRef<HTMLInputElement>(null);
+  const messageRef = useRef<HTMLTextAreaElement>(null);
+
+  async function handleForm(event: FormEvent) {
+    event.preventDefault();
+
+    if (
+      nameRef.current.value != null &&
+      emailRef.current.value != null &&
+      messageRef.current.value != null
+    ) {
+      $("#js-preloader").removeClass("loaded");
+
+      const templateParams = {
+        name: nameRef.current.value,
+        email: emailRef.current.value,
+        message: messageRef.current.value,
+      };
+
+      await emailjs
+        .send(
+          "service_iddklmo",
+          "template_kz1nxtb",
+          templateParams,
+          "EkoPVt2uyOG0P6ltg"
+        )
+        .then(
+          (response) => {
+            console.log("SUCCESS!", response.status, response.text);
+            nameRef.current.value = "";
+            emailRef.current.value = "";
+            messageRef.current.value = "";
+            
+            $("#js-preloader").addClass("loaded");
+          },
+          (err) => {
+            console.log("FAILED...", err);
+          }
+        );
+    }
+  }
+
   return (
     <Zoom>
       <div className="contact-us section" id="contact">
@@ -37,11 +83,13 @@ function ContactUs() {
             </div>
             <div className="col-lg-6">
               <div className="contact-us-content">
-                <form id="contact-form" action="" method="post">
+                <form id="contact-form" onSubmit={handleForm}>
                   <div className="row">
                     <div className="col-lg-12">
                       <fieldset>
+                        <label htmlFor="name">Name</label>
                         <input
+                          ref={nameRef}
                           type="name"
                           name="name"
                           id="name"
@@ -53,7 +101,9 @@ function ContactUs() {
                     </div>
                     <div className="col-lg-12">
                       <fieldset>
+                        <label htmlFor="email">Email</label>
                         <input
+                          ref={emailRef}
                           type="text"
                           name="email"
                           id="email"
@@ -65,7 +115,9 @@ function ContactUs() {
                     </div>
                     <div className="col-lg-12">
                       <fieldset>
+                        <label htmlFor="message">Message</label>
                         <textarea
+                          ref={messageRef}
                           name="message"
                           id="message"
                           placeholder="Your Message"

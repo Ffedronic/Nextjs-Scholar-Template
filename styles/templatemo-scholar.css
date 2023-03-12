@@ -188,17 +188,14 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.99);
-  display: -webkit-box;
+  background-color: white;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
-  -webkit-box-pack: center;
   justify-content: center;
   opacity: 1;
   visibility: visible;
   z-index: 9999;
-  -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
 }
 
