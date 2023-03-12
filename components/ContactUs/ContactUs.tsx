@@ -4,11 +4,16 @@ import $ from "jquery";
 
 import emailjs from "@emailjs/browser";
 import { Zoom } from "react-reveal";
+import ReCAPTCHA from "react-google-recaptcha";
 
 function ContactUs() {
   const nameRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
+
+  function onChange(value) {
+    console.log(value);
+  }
 
   async function handleForm(event: FormEvent) {
     event.preventDefault();
@@ -39,7 +44,7 @@ function ContactUs() {
             nameRef.current.value = "";
             emailRef.current.value = "";
             messageRef.current.value = "";
-            
+
             $("#js-preloader").addClass("loaded");
           },
           (err) => {
@@ -123,6 +128,12 @@ function ContactUs() {
                           placeholder="Your Message"
                         ></textarea>
                       </fieldset>
+                    </div>
+                    <div className="col-lg-12">
+                      <ReCAPTCHA
+                        sitekey="6LfQufUkAAAAAOmdxL1cxvcUh_MVHxt89Rn0qge7"
+                        onChange={onChange}
+                      />
                     </div>
                     <div className="col-lg-12">
                       <fieldset>
