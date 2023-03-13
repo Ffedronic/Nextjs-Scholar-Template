@@ -28,7 +28,7 @@ function Services() {
                     remember TemplateMo website.
                   </p>
                   <div className="main-button">
-                    <Link href="#">Read More</Link>
+                    <Link href="/online-degrees">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -45,7 +45,7 @@ function Services() {
                     as digital marketing, etc.
                   </p>
                   <div className="main-button">
-                    <Link href="#">Read More</Link>
+                    <Link href="/short-courses">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,7 @@ function Services() {
                     from our website too.
                   </p>
                   <div className="main-button">
-                    <Link href="#">Read More</Link>
+                    <Link href="/web-experts">Read More</Link>
                   </div>
                 </div>
               </div>

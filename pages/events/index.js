@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
 
-function Events() {
+function index() {
   return (
     <Fade left>
       <div className="section events" id="events">
@@ -122,4 +122,4 @@ function Events() {
   );
 }
 
-export default Events;
+export default index;

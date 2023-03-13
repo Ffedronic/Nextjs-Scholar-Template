@@ -10,7 +10,7 @@ function Header() {
   }
 
   return (
-    <header className="header-area header-sticky z-3">
+    <header className="header-area background-header header-sticky z-3">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -34,30 +34,14 @@ function Header() {
                   <span className="navbar-toggler-icon"></span>
                 </button>
                 <div></div>
-                <div className="search-input">
-                  <form id="search" action="#">
-                    <input
-                      type="search"
-                      placeholder="Type Something"
-                      id="searchText"
-                      name="searchKeyword"
-                    />
-                    <i className="fa fa-search"></i>
-                  </form>
-                </div>
                 <div
-                  className="collapse navbar-collapse ms-md-5"
+                  className="collapse navbar-collapse"
                   id="navbarNavAltMarkup"
                 >
                   <ul className="navbar-nav nav">
                     <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
-                      <Link href="#top" className="nav-link active pt-md-0">
-                        Home
-                      </Link>
-                    </li>
-                    <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
                       <Link
-                        href="#services"
+                        href="/#services"
                         className="nav-link active pt-md-0"
                       >
                         Services
@@ -65,25 +49,25 @@ function Header() {
                     </li>
                     <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
                       <Link
-                        href="#courses"
+                        href="/latest-courses"
                         className=" nav-link active pt-md-0"
                       >
                         Courses
                       </Link>
                     </li>
                     <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
-                      <Link href="#team" className=" nav-link active pt-md-0">
+                      <Link href="/#team" className=" nav-link active pt-md-0">
                         Team
                       </Link>
                     </li>
                     <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
-                      <Link href="#facts" className=" nav-link active pt-md-0">
+                      <Link href="/#facts" className=" nav-link active pt-md-0">
                         Facts
                       </Link>
                     </li>
                     <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
                       <Link
-                        href="#testimonials"
+                        href="/#testimonials"
                         className=" nav-link active pt-md-0"
                       >
                         Testimonials
@@ -91,7 +75,15 @@ function Header() {
                     </li>
                     <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
                       <Link
-                        href="#contact"
+                        href="/events"
+                        className=" nav-link active pt-md-0"
+                      >
+                        Events
+                      </Link>
+                    </li>
+                    <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
+                      <Link
+                        href="/#contact"
                         className=" nav-link active pt-md-0"
                       >
                         Contact
