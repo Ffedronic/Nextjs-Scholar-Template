@@ -76,43 +76,43 @@ function ContactUs() {
                   <form id="contact-form" onSubmit={handleForm}>
                     <div className="row">
                       <div className="col-lg-12">
-                        <fieldset>
-                          <label htmlFor="name">Name</label>
-                          <input
-                            ref={nameRef}
-                            type="name"
-                            name="name"
-                            id="name"
-                            placeholder="Your Name..."
-                            autoComplete="on"
-                            required
-                          />
-                        </fieldset>
+                        <label htmlFor="name" className=" visually-hidden">
+                          Name
+                        </label>
+                        <input
+                          ref={nameRef}
+                          type="name"
+                          name="name"
+                          id="name"
+                          placeholder="Your Name..."
+                          autoComplete="on"
+                          required
+                        />
                       </div>
                       <div className="col-lg-12">
-                        <fieldset>
-                          <label htmlFor="email">Email</label>
-                          <input
-                            ref={emailRef}
-                            type="text"
-                            name="email"
-                            id="email"
-                            pattern="[^ @]*@[^ @]*"
-                            placeholder="Your E-mail..."
-                            required
-                          />
-                        </fieldset>
+                        <label htmlFor="email" className=" visually-hidden">
+                          Email
+                        </label>
+                        <input
+                          ref={emailRef}
+                          type="text"
+                          name="email"
+                          id="email"
+                          pattern="[^ @]*@[^ @]*"
+                          placeholder="Your E-mail..."
+                          required
+                        />
                       </div>
                       <div className="col-lg-12">
-                        <fieldset>
-                          <label htmlFor="message">Message</label>
-                          <textarea
-                            ref={messageRef}
-                            name="message"
-                            id="message"
-                            placeholder="Your Message"
-                          ></textarea>
-                        </fieldset>
+                        <label htmlFor="message" className=" visually-hidden">
+                          Message
+                        </label>
+                        <textarea
+                          ref={messageRef}
+                          name="message"
+                          id="message"
+                          placeholder="Your Message"
+                        ></textarea>
                       </div>
                       <div className="col-lg-12">
                         <button

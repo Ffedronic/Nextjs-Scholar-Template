@@ -1,3 +1,4 @@
+import SectionHeading from "@/lib/SectionHeading/SectionHeading";
 import Link from "next/link";
 import React from "react";
 import { Fade } from "react-reveal";
@@ -9,17 +10,14 @@ function Services() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <div className="section-heading">
-                <h6>Services</h6>
-                <h2>the services we offer</h2>
-              </div>
+              <SectionHeading title="Services" subtitle="Services"/>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="service-item">
+              <article className="service-item">
                 <div className="icon">
-                  <img src="/images/service-01.png" alt="online degrees" />
+                  <img src="/images/service-01.png" alt="book of degrees" />
                 </div>
                 <div className="main-content">
                   <h4>Online Degrees</h4>
@@ -31,12 +29,12 @@ function Services() {
                     <Link href="/online-degrees">Read More</Link>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="service-item">
+              <article className="service-item">
                 <div className="icon">
-                  <img src="/images/service-02.png" alt="short courses" />
+                  <img src="/images/service-02.png" alt="book of courses" />
                 </div>
                 <div className="main-content">
                   <h4>Short Courses</h4>
@@ -48,12 +46,12 @@ function Services() {
                     <Link href="/short-courses">Read More</Link>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="service-item">
+              <article className="service-item">
                 <div className="icon">
-                  <img src="/images/service-03.png" alt="web experts" />
+                  <img src="/images/service-03.png" alt="an expert of the web" />
                 </div>
                 <div className="main-content">
                   <h4>Web Experts</h4>
@@ -65,7 +63,7 @@ function Services() {
                     <Link href="/web-experts">Read More</Link>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
         </div>

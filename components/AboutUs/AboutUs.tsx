@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Fade } from "react-reveal";
 import React from "react";
+import SectionHeading from "@/lib/SectionHeading/SectionHeading";
 
 function AboutUs() {
   return (
@@ -124,18 +125,12 @@ function AboutUs() {
             </div>
           </div>
           <div className="col-lg-5 align-self-center">
-            <div className="section-heading">
-              <h6>About Us</h6>
-              <h2>What make us the best academy online?</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <SectionHeading title="About Us" subtitle="What make us the best academy online?" description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravid risus commodo.
-              </p>
-              <div className="main-button">
+                ipsum suspendisse ultrices gravid risus commodo." />
+            <div className="main-button">
                 <Link href="#">Discover More</Link>
               </div>
-            </div>
           </div>
         </div>
       </div>
