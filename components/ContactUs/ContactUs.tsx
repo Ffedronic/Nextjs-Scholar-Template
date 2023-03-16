@@ -69,22 +69,6 @@ function ContactUs() {
                     CSS templates at absolutely 100% free of charge. You may
                     support us by sharing our website to your friends.
                   </p>
-                  <div className="special-offer">
-                    <span className="offer">
-                      off
-                      <br />
-                      <em>50%</em>
-                    </span>
-                    <h6>
-                      Valide: <em>24 April 2036</em>
-                    </h6>
-                    <h4>
-                      Special Offer <em>50%</em> OFF!
-                    </h4>
-                    <Link href="#">
-                      <i className="fa fa-angle-right"></i>
-                    </Link>
-                  </div>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -131,21 +115,13 @@ function ContactUs() {
                         </fieldset>
                       </div>
                       <div className="col-lg-12">
-                        <ReCAPTCHA
-                          sitekey="6LfQufUkAAAAAOmdxL1cxvcUh_MVHxt89Rn0qge7"
-                          onChange={onChange}
-                        />
-                      </div>
-                      <div className="col-lg-12">
-                        <fieldset>
-                          <button
-                            type="submit"
-                            id="form-submit"
-                            className="orange-button"
-                          >
-                            Send Message Now
-                          </button>
-                        </fieldset>
+                        <button
+                          type="submit"
+                          id="form-submit"
+                          className="orange-button"
+                        >
+                          Send Message Now
+                        </button>
                       </div>
                     </div>
                   </form>

@@ -24,18 +24,21 @@ function Team() {
                   <h4>Sophia Rose</h4>
                   <ul className="social-icons">
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-facebook"></i>
+                        <span className="link">facebook</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-twitter"></i>
+                        <span className="link">twitter</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-linkedin"></i>
+                        <span className="link">linkedin</span>
                       </Link>
                     </li>
                   </ul>
@@ -50,18 +53,21 @@ function Team() {
                   <h4>Cindy Walker</h4>
                   <ul className="social-icons">
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-facebook"></i>
+                        <span className="link">facebook</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-twitter"></i>
+                        <span className="link">twitter</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-linkedin"></i>
+                        <span className="link">linkedin</span>
                       </Link>
                     </li>
                   </ul>
@@ -76,18 +82,21 @@ function Team() {
                   <h4>David Hutson</h4>
                   <ul className="social-icons">
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-facebook"></i>
+                        <span className="link">facebook</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-twitter"></i>
+                        <span className="link">twitter</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-linkedin"></i>
+                        <span className="link">linkedin</span>
                       </Link>
                     </li>
                   </ul>
@@ -102,18 +111,21 @@ function Team() {
                   <h4>Stella Blair</h4>
                   <ul className="social-icons">
                     <li>
-                      <Link href="#">
-                        <i className="fab fa-facebook"></i>
+                      <Link href="/">
+                        <i className="fab fa-facebook" title="facebook"></i>
+                        <span className="link">facebook</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-twitter"></i>
+                        <span className="link">twitter</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <i className="fab fa-linkedin"></i>
+                        <span className="link">linkedin</span>
                       </Link>
                     </li>
                   </ul>
