@@ -5,7 +5,7 @@ import Link from "next/link";
 function MainBanner() {
   return (
     <Fragment>
-      <div className="main-banner" id="top">
+      <section className="main-banner" id="top">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -109,7 +109,7 @@ function MainBanner() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </Fragment>
   );
 }

@@ -1,10 +1,9 @@
-import Link from "next/link";
 import React, { FormEvent, useRef } from "react";
 import $ from "jquery";
 
 import emailjs from "@emailjs/browser";
 import { Zoom } from "react-reveal";
-import ReCAPTCHA from "react-google-recaptcha";
+import SectionHeading from "@/lib/SectionHeading/SectionHeading";
 
 function ContactUs() {
   const nameRef = useRef<HTMLInputElement>(null);
@@ -56,20 +55,18 @@ function ContactUs() {
 
   return (
     <Zoom>
-      <div className="my-5 py-5">
+      <section className="my-5 py-5">
         <div className="contact-us section" id="contact">
           <div className="container">
-            <div className="row">
+            <article className="row">
               <div className="col-lg-6  align-self-center">
-                <div className="section-heading">
-                  <h6>Contact Us</h6>
-                  <h2>Feel free to contact us anytime</h2>
-                  <p>
-                    Thank you for choosing our templates. We provide you best
+                <SectionHeading
+                  title="Contact Us"
+                  subtitle="Feel free to contact us anytime"
+                  description=" Thank you for choosing our templates. We provide you best
                     CSS templates at absolutely 100% free of charge. You may
-                    support us by sharing our website to your friends.
-                  </p>
-                </div>
+                    support us by sharing our website to your friends."
+                />
               </div>
               <div className="col-lg-6">
                 <div className="contact-us-content">
@@ -127,10 +124,10 @@ function ContactUs() {
                   </form>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </section>
     </Zoom>
   );
 }

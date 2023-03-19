@@ -1,3 +1,4 @@
+import SectionHeading from "@/lib/SectionHeading/SectionHeading";
 import Link from "next/link";
 import React from "react";
 import { Fade } from "react-reveal";
@@ -5,19 +6,16 @@ import { Fade } from "react-reveal";
 function Team() {
   return (
     <Fade right>
-      <div className="team section" id="team">
+      <section className="team section" id="team">
         <div className="container">
           <div className="row pb-5">
             <div className="col-lg-12 text-center">
-              <div className="section-heading">
-                <h6>Team</h6>
-                <h2>Team</h2>
-              </div>
+              <SectionHeading title="Team" subtitle="Team"/>
             </div>
           </div>
           <div className="row mt-5">
             <div className="col-lg-3 col-md-6">
-              <div className="team-member">
+              <article className="team-member">
                 <div className="main-content">
                   <img src="/images/member-01.jpg" alt="Sophia as UX teacher" />
                   <span className="category">UX Teacher</span>
@@ -43,10 +41,10 @@ function Team() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </article>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="team-member">
+              <article className="team-member">
                 <div className="main-content">
                   <img src="/images/member-02.jpg" alt="cindy as graphic teacher" />
                   <span className="category">Graphic Teacher</span>
@@ -72,10 +70,10 @@ function Team() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </article>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="team-member">
+              <article className="team-member">
                 <div className="main-content">
                   <img src="/images/member-03.jpg" alt="david as full stack" />
                   <span className="category">Full Stack Master</span>
@@ -101,10 +99,10 @@ function Team() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </article>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="team-member">
+              <article className="team-member">
                 <div className="main-content">
                   <img src="/images/member-04.jpg" alt="stella as animator" />
                   <span className="category">Digital Animator</span>
@@ -130,11 +128,11 @@ function Team() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </Fade>
   );
 }

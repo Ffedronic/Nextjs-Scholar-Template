@@ -6,11 +6,11 @@ import { Fade } from "react-reveal";
 function Services() {
   return (
     <Fade left>
-      <div className="services section" id="services">
+      <section className="services section" id="services">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <SectionHeading title="Services" subtitle="Services"/>
+              <SectionHeading title="Services" subtitle="Services" />
             </div>
           </div>
           <div className="row">
@@ -26,7 +26,7 @@ function Services() {
                     remember TemplateMo website.
                   </p>
                   <div className="main-button">
-                    <Link href="/online-degrees">Read More</Link>
+                    <Link href="/online-degrees">View More</Link>
                   </div>
                 </div>
               </article>
@@ -43,7 +43,7 @@ function Services() {
                     as digital marketing, etc.
                   </p>
                   <div className="main-button">
-                    <Link href="/short-courses">Read More</Link>
+                    <Link href="/short-courses">View More</Link>
                   </div>
                 </div>
               </article>
@@ -51,7 +51,10 @@ function Services() {
             <div className="col-lg-4 col-md-6">
               <article className="service-item">
                 <div className="icon">
-                  <img src="/images/service-03.png" alt="an expert of the web" />
+                  <img
+                    src="/images/service-03.png"
+                    alt="an expert of the web"
+                  />
                 </div>
                 <div className="main-content">
                   <h4>Web Experts</h4>
@@ -60,14 +63,14 @@ function Services() {
                     from our website too.
                   </p>
                   <div className="main-button">
-                    <Link href="/web-experts">Read More</Link>
+                    <Link href="/web-experts">View More</Link>
                   </div>
                 </div>
               </article>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </Fade>
   );
 }

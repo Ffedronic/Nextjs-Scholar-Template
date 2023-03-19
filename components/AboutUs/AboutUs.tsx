@@ -6,7 +6,7 @@ import SectionHeading from "@/lib/SectionHeading/SectionHeading";
 function AboutUs() {
   return (
     <Fade right>
-    <div className="section about-us">
+    <section className="section about-us">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 offset-lg-1">
@@ -134,7 +134,7 @@ function AboutUs() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
     </Fade>
   );
 }

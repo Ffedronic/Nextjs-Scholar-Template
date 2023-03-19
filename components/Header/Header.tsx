@@ -41,36 +41,10 @@ function Header() {
                   <ul className="navbar-nav nav">
                     <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
                       <Link
-                        href="/#services"
-                        className="nav-link active pt-md-0"
-                      >
-                        Services
-                      </Link>
-                    </li>
-                    <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
-                      <Link
                         href="/latest-courses"
                         className=" nav-link active pt-md-0"
                       >
-                        Courses
-                      </Link>
-                    </li>
-                    <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
-                      <Link href="/#team" className=" nav-link active pt-md-0">
-                        Team
-                      </Link>
-                    </li>
-                    <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
-                      <Link href="/#facts" className=" nav-link active pt-md-0">
-                        Facts
-                      </Link>
-                    </li>
-                    <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
-                      <Link
-                        href="/#testimonials"
-                        className=" nav-link active pt-md-0"
-                      >
-                        Testimonials
+                        Latest Courses
                       </Link>
                     </li>
                     <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
@@ -79,14 +53,6 @@ function Header() {
                         className=" nav-link active pt-md-0"
                       >
                         Events
-                      </Link>
-                    </li>
-                    <li className="scroll-to-section nav-item" onClick={handleClickMenuItems}>
-                      <Link
-                        href="/#contact"
-                        className=" nav-link active pt-md-0"
-                      >
-                        Contact
                       </Link>
                     </li>
                   </ul>

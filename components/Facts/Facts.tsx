@@ -1,3 +1,4 @@
+import SectionHeading from "@/lib/SectionHeading/SectionHeading";
 import React from "react";
 import CountUp from "react-countup";
 import {Zoom } from "react-reveal"
@@ -9,14 +10,11 @@ function Facts() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <div className="section-heading">
-              <h6>Fun Facts</h6>
-              <h2>Fun Facts</h2>
-            </div>
+            <SectionHeading title="Fun Facts" subtitle="Fun Facts"/>
           </div>
         </div>
       </div>
-      <div className="fun-facts pt-md-3 pb-md-0">
+      <section className="fun-facts pt-md-3 pb-md-0">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -57,7 +55,7 @@ function Facts() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
     </Zoom>
   );

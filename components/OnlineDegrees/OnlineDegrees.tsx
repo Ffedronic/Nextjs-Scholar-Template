@@ -1,17 +1,18 @@
+import SectionHeading from "@/lib/SectionHeading/SectionHeading";
 import React from "react";
 import { Fade } from "react-reveal";
 
 function OnlineDegrees() {
   return (
     <Fade right>
-      <div className="my-5 py-5">
+      <section className="my-5 py-5">
         <div className="section about-us">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 offset-lg-1">
                 <div className="accordion" id="accordionExample">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingOne">
+                  <article className="accordion-item">
+                    <h3 className="accordion-header" id="headingOne">
                       <button
                         className="accordion-button"
                         type="button"
@@ -22,7 +23,7 @@ function OnlineDegrees() {
                       >
                         Where shall we begin?
                       </button>
-                    </h2>
+                    </h3>
                     <div
                       id="collapseOne"
                       className="accordion-collapse collapse show"
@@ -37,9 +38,9 @@ function OnlineDegrees() {
                         aliqua. Quis ipsum suspendisse ultrices gravida.
                       </div>
                     </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
+                  </article>
+                  <article className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -50,7 +51,7 @@ function OnlineDegrees() {
                       >
                         How do we work together?
                       </button>
-                    </h2>
+                    </h3>
                     <div
                       id="collapseTwo"
                       className="accordion-collapse collapse"
@@ -65,9 +66,9 @@ function OnlineDegrees() {
                         aliqua. Quis ipsum suspendisse ultrices gravida.
                       </div>
                     </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingThree">
+                  </article>
+                  <article className="accordion-item">
+                    <h3 className="accordion-header" id="headingThree">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -78,7 +79,7 @@ function OnlineDegrees() {
                       >
                         Why SCHOLAR is the best?
                       </button>
-                    </h2>
+                    </h3>
                     <div
                       id="collapseThree"
                       className="accordion-collapse collapse"
@@ -91,9 +92,9 @@ function OnlineDegrees() {
                         website. You can browse by different tags or categories.
                       </div>
                     </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingFour">
+                  </article>
+                  <article className="accordion-item">
+                    <h3 className="accordion-header" id="headingFour">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -104,7 +105,7 @@ function OnlineDegrees() {
                       >
                         Do we get the best support?
                       </button>
-                    </h2>
+                    </h3>
                     <div
                       id="collapseFour"
                       className="accordion-collapse collapse"
@@ -121,25 +122,23 @@ function OnlineDegrees() {
                         </code>
                       </div>
                     </div>
-                  </div>
+                  </article>
                 </div>
               </div>
               <div className="col-lg-5 align-self-center">
-                <div className="section-heading">
-                  <h6>Online Degrees</h6>
-                  <h2>Online Degrees</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                <SectionHeading
+                  title="Online Degrees"
+                  subtitle="Online Degrees"
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis ipsum suspendisse ultrices gravid risus
-                    commodo.
-                  </p>
-                </div>
+                    commodo."
+                />
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </Fade>
   );
 }
