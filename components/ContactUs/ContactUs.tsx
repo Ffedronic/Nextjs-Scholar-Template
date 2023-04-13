@@ -28,10 +28,10 @@ function ContactUs() {
 
       await emailjs
         .send(
-          "service_iddklmo",
-          "template_kz1nxtb",
+          process.env.emailjsService,
+          process.env.emailjsTemplate,
           templateParams,
-          "EkoPVt2uyOG0P6ltg"
+          process.env.emailjsSecretKey
         )
         .then(
           (response) => {
