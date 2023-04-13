@@ -10,10 +10,6 @@ function ContactUs() {
   const emailRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
 
-  function onChange(value) {
-    console.log(value);
-  }
-
   async function handleForm(event: FormEvent) {
     event.preventDefault();
 
